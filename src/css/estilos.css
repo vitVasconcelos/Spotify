@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.container .nav{
+    width: 300px;
+    background-color: #121212;
+    padding: 10px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-logo i{
+    font-size: 24px;
+}
+.nav-biblioteca{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.nav-biblioteca i, .nav-biblioteca p{
+    color: #B7B3B6;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-playlist, .nav-podcast{
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+.nav-playlist button, .nav-podcast button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.nav-playlist p, .nav-podcast p{
+    font-size: 12px;
+}
+.nav-footer{
+    margin-top: auto;
+   
+}
+.nav-footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.nav-button-idioma{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+main{
+    padding: 24px;
+    flex-grow: 1;
+    overflow-y: auto;
+  
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 300px;
+}
+.cabecalho input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-left: 10px;
+    outline: none;
+
+}
+.content{
+    margin-top: 40px;
+}
+.content h2{
+    margin-bottom: 12px;
+}
+
+.artistas-populares, .albuns-populares {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* corrigido */
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.artista-card, .album-card {
+    background-color: #181818;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.artista-card:hover, .album-card:hover{
+    background-color: #282828;
+  
+}
+
+.artista-card img, .album-card img {
+    width: 100%;
+    max-height: 70%;
+    margin-bottom: 16px;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+.artista-card img{
+    border-radius: 50%;
+
+}
+.artista-card h3, .album-card h3{
+    font-size: 12px;
+}
+.album-card p, .artista-card{
+    font-size: 10px;
+    color: #B7B3B6;
+}
+.banner{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(90deg,#AF2896,#509BF5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 14px;
+}
+.banner h2{
+    font-size: 14px;
+}
+.banner p{
+    font-size: 10px;
+}
+.banner button{
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
