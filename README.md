@@ -5,7 +5,8 @@ Este projeto é uma reprodução visual inspirada na interface do Spotify. Ele f
 📸 Demonstração
 
 ![image](https://github.com/user-attachments/assets/1d9be6ad-8b98-44e1-b8d7-24f06a6c2237)
-![image](https://github.com/user-attachments/assets/eff4ef2c-4794-4a26-a386-b9771af81dbc)
+![image](https://github.com/user-attachments/assets/03973c88-8f52-4492-aa0c-4c7ed39c5014)
+
 
 🧩 Funcionalidades
 
