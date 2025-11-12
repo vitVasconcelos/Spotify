@@ -4,7 +4,6 @@ Este projeto é uma reprodução visual inspirada na interface do Spotify. Ele f
 
 Visite o site:  https://vitvasconcelos.github.io/Spotify/
 
- https://vitvasconcelos.github.io/Spotify
 📸 Demonstração
 
 ![image](https://github.com/user-attachments/assets/1d9be6ad-8b98-44e1-b8d7-24f06a6c2237)
